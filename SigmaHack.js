@@ -1,5 +1,6 @@
 export async function main(ns) {
     ns.print("Starting script here");
+    ns.print("File by Lejobuild");
     
     while(true){
         await ns.hack("sigma-cosmetics"); //Use Netscript hack function
