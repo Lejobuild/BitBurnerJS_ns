@@ -111,7 +111,9 @@ export async function main(ns) {
 		ns.alert("Backdoored servers Money will be growed now. It can be a few Seconds to Minutes.");
 			await ns.sleep(8000);
 
-	//Grow Command will be executed on the backdoored servers here:
+	//Update 2.0: We can Build a Loop in here//
+	while (true) {
+		//Grow Command will be executed on the backdoored servers here:
 
 	ns.grow("max-hardware");
 	ns.grow("neo-net");
@@ -173,4 +175,20 @@ export async function main(ns) {
 		ns.alert("Servers Money Hacked.");
 			await ns.sleep(3000);
 
+	//Update 2.0: 
+	//Now we have to use the Weaken Command again to make sure that the Hack and Grow Command works everytime.//
+
+	ns.weaken("max-hardware");
+	ns.weaken("neo-net");
+	ns.weaken("netlink");
+	ns.weaken("millenium-fitness");
+	ns.weaken("syscore");
+	ns.weaken("omega-net");
+	ns.weaken("the-hub");
+	ns.weaken("phantasy");
+	ns.weaken("zer0");
+
+	//Update 2.0: 
+	//End of execution of the Weaken Command//
+	}
 }
