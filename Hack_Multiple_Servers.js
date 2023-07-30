@@ -26,36 +26,36 @@ export async function main(ns) {
 	//FTPcrack.exe will be executed here:
 
 	ns.ftpcrack("max-hardware");
-		ns.ftpcrack("neo-net");
-			ns.ftpcrack("silver-helix");
-				ns.ftpcrack("netlink");
-					ns.ftpcrack("millenium-fitness");
-						ns.ftpcrack("syscore");
-							ns.ftpcrack("omega-net");
-								ns.ftpcrack("the-hub");
-									ns.ftpcrack("phantasy");
-										ns.ftpcrack("zer0");
+	ns.ftpcrack("neo-net");
+	ns.ftpcrack("silver-helix");
+	ns.ftpcrack("netlink");
+	ns.ftpcrack("millenium-fitness");
+	ns.ftpcrack("syscore");
+	ns.ftpcrack("omega-net");
+	ns.ftpcrack("the-hub");
+	ns.ftpcrack("phantasy");
+	ns.ftpcrack("zer0");
 	
 	//End of execution of FTPcrack.exe//
 
 	//BruteSSH.exe will be executed here:
 
 	ns.brutessh("silver-helix");
-		ns.brutessh("millenium-fitness");
-			ns.brutessh("netlink");
-				ns.brutessh("syscore");
-					ns.brutessh("omega-net");
-						ns.brutessh("the-hub");
-							ns.brutessh("phantasy");
+	ns.brutessh("millenium-fitness");
+	ns.brutessh("netlink");
+	ns.brutessh("syscore");
+	ns.brutessh("omega-net");
+	ns.brutessh("the-hub");
+	ns.brutessh("phantasy");
 	
 	//End of execution of BruteSSH.exe//
 
 	//HTTPworm.exe will be executed here:
 
 	ns.httpworm("millenium-fitness");
-		ns.httpworm("netlink");
-			ns.httpworm("syscore");
-				ns.sqlinject("syscore");
+	ns.httpworm("netlink");
+	ns.httpworm("syscore");
+	ns.sqlinject("syscore");
 	
 	//End of execution of HTTPworm.exe//
 
@@ -113,7 +113,7 @@ export async function main(ns) {
 
 	//Update 2.0: We can Build a Loop in here//
 	while (true) {
-		//Grow Command will be executed on the backdoored servers here:
+	//Grow Command will be executed on the backdoored servers here:
 
 	ns.grow("max-hardware");
 	ns.grow("neo-net");
